@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+
 body {
     padding: 0;
     margin: 0;
+    background-color: #131313;
 }
 
 footer{
@@ -9,7 +12,48 @@ footer{
     background-color: blue;
     color: #FFF;
     width: 100%;
-    height: 21px;    
+    height: 15px;    
     text-align: center;
     line-height: 20px;
+}
+
+#div{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+h2{
+    color: steelblue;
+    text-align: left;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #bdbdbd;
+}
+
+.review-score{
+    background-color: #e6bd09;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+    background-size: cover;
+}
+
+.media-picture{
+    height: 400px;
+    background: url("/img/minions.jpg");
+}
+
+a{
+    color: yellow;
 }
